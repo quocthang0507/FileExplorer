@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>d5d2779016cfdc01f7229288a133f3a9.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -97,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="d5d2779016cfdc01f7229288a133f3a9.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
